@@ -125,12 +125,19 @@
     <Compile Include="POM_Modules\AdvertisementPOM\DeleteAdPage.cs" />
     <Compile Include="POM_Modules\AdvertisementPOM\EditAdPage.cs" />
     <Compile Include="POM_Modules\AdvertisementPOM\EditUserInfoPage.cs" />
+    <Compile Include="POM_Modules\WhereToGoPOM\KydaPoyti_POM.cs" />
+    <Compile Include="POM_Modules\WhereToGoPOM\RestaurantPage_POM.cs" />
+    <Compile Include="POM_Modules\WhereToGoPOM\RestaurantsList_POM.cs" />
+    <Compile Include="POM_Modules\WhereToGoPOM\Restaurant_POM.cs" />
+    <Compile Include="POM_Modules\WhereToGoPOM\Sport_POM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\AdvertisementSteps.cs" />
+    <Compile Include="Steps\WhereToGoModuleSteps.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="FeatureFiles\Advertisement.feature" />
+    <None Include="FeatureFiles\WhereToGo.feature" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
